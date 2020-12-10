@@ -1,6 +1,6 @@
 import express from 'express';
 
-const PORT = process.argv[2] || 80;
+const PORT = process.argv[2];
 
 // Initialise Express
 const app = express();
